@@ -111,7 +111,7 @@ def main():
             print("Copy file: installer",  Installer_DEST_PATH)
             shutil.copyfile(Installer_ORI_PATH, Installer_DEST_PATH)
             print("Copy file: heic2jpg",  Dest_EXE_path)
-            input("Do you want to write command to register?")
+            #input("Do you want to write command to register?")
             print("EXE REG PATH", Dest_EXE_path)
             install(Dest_EXE_path)
             print("Install finished!")
