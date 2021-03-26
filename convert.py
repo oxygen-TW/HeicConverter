@@ -6,7 +6,7 @@ from os.path import isdir
 from sys import exit
 from wand.image import Image
 from wand import exceptions
-
+from ConvertImageEx import *
 
 def GetFileExtension(path):
     return os.path.splitext(path)[1]
@@ -99,26 +99,6 @@ class ConvertImage():
     @staticmethod
     def supportFormat():
         print(["jpeg", "png", "bmp", "gif", "svg", "tiff"])
-
-class ConvertImageFileNotFound(Exception):
-    pass
-
-
-class ConvertImageDirNotFound(Exception):
-    pass
-
-
-class CanNotConvertImage(Exception):
-    pass
-    # print("請確認是否為影像檔及其影像格式")
-
-
-class FormatNotSupport(Exception):
-    pass
-
-
-class OtherError(Exception):
-    pass
 
 
 if __name__ == "__main__":

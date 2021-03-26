@@ -1,6 +1,8 @@
 # HeicConverter
 Implement by python, wrap ImageMagic
 
+## ONLY Windows version now
+
 ## 安裝
 1. 以**系統管理員身分**執行`install.cmd`
 2. 等候安裝程式下載必要檔案

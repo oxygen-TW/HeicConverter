@@ -1,2 +1,3 @@
 magicwand
+requests
 pyinstaller
