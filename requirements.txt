@@ -1,0 +1,2 @@
+magicwand
+pyinstaller
